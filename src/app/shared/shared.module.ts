@@ -24,44 +24,32 @@ import {MorrisGraphModule} from "@app/shared/graphs/morris-graph/morris-graph.mo
 
 @NgModule({
   imports: [
-    CommonModule,
-    FormsModule,
-    RouterModule,
-
-    SmartadminLayoutModule,
-    BootstrapModule
+      CommonModule,
+      FormsModule,
+      RouterModule,
+      SmartadminLayoutModule,
+      BootstrapModule
   ],
   declarations: [],
   exports: [
-    CommonModule,
-    FormsModule,
-    RouterModule,
-
-    UserModule,
-    SmartadminLayoutModule,
-    BootstrapModule,
-
-    I18nModule,
-
-    UtilsModule,
-    PipesModule,
-
-    SmartadminFormsLiteModule,
-
-    SmartProgressbarModule,
-
-    InlineGraphsModule,
-      MorrisGraphModule
-
-    SmartadminWidgetsModule,
-
-    ChatModule,
-
-    StatsModule,
-
-    VoiceControlModule,
-
-    CalendarComponentsModule,
+      CommonModule,
+      FormsModule,
+      RouterModule,
+      UserModule,
+      SmartadminLayoutModule,
+      BootstrapModule,
+      I18nModule,
+      UtilsModule,
+      PipesModule,
+      SmartadminFormsLiteModule,
+      SmartProgressbarModule,
+      InlineGraphsModule,
+      MorrisGraphModule,
+      SmartadminWidgetsModule,
+      ChatModule,
+      StatsModule,
+      VoiceControlModule,
+      CalendarComponentsModule,
   ]
 })
 export class SharedModule {}
